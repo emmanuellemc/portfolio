@@ -13,7 +13,8 @@
   --maroon: #2a252c;
 }
 
-body, html {
+body,
+html {
   overflow: hidden;
   scroll-behavior: smooth;
 }
@@ -22,7 +23,7 @@ body {
   color: #1d1d1b;
   width: 100%;
   background-color: #eeebe4;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   text-align: center;
 }
@@ -34,7 +35,7 @@ h2 {
 
 section h2 {
   font-size: 2em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -44,7 +45,10 @@ strong {
 
 p {
   line-height: normal;
-  margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 ::-webkit-scrollbar {
@@ -65,15 +69,15 @@ p {
 }
 
 #back-to-top {
-  width:50px;
-  height:50px;
+  width: 50px;
+  height: 50px;
   color: var(--maroon);
   position: fixed;
   bottom: 20px;
   right: 20px;
   display: none;
-  z-index: 1000; 
-  cursor:pointer
+  z-index: 1000;
+  cursor: pointer;
 }
 /* -------------ENDOF : GENERAL------------ */
 
@@ -93,11 +97,11 @@ p {
   font-size: 4em;
 }
 
-.load h2{
+.load h2 {
   text-transform: uppercase;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
-  text-align:right;
+  text-align: right;
 }
 
 .load hr {
@@ -127,7 +131,7 @@ header {
     url(./assets/webma-studio-developpement-web.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment:fixed;
   background-position: center bottom;
   position: absolute;
   top: 0;
@@ -151,7 +155,7 @@ header {
 .btn-wrapper {
   background-color: var(--maroon);
   padding: 10px;
-  color: var(--darker)
+  color: var(--darker);
 }
 
 .btn-wrapper a {
@@ -161,7 +165,7 @@ header {
   padding: 4px;
   align-items: center;
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
 
 .btn-wrapper:hover,
@@ -183,7 +187,7 @@ nav {
 nav a {
   display: inline-block;
   text-decoration: none;
-  text-transform:uppercase ;
+  text-transform: uppercase;
   /* font-weight: 400; */
   color: #1d1d1b;
   padding: 18px;
@@ -213,7 +217,7 @@ nav a:focus {
 
 /* -------------CONTENT------------ */
 
-section{
+section {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -266,16 +270,15 @@ section{
 .picture {
   width: 300px;
   height: 300px;
-  background-color:#8f8686 ;
+  background-color: #8f8686;
   box-sizing: border-box;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .flexfull {
   display: flex;
   justify-content: center;
   flex-basis: 100%;
-    
 }
 
 .spacing {
@@ -294,7 +297,7 @@ section{
   background-color: var(--maroon);
   width: 1px;
   height: 80px;
-  margin: 0 20px ;
+  margin: 0 20px;
   margin-top: 1rem;
 }
 
@@ -303,39 +306,48 @@ section{
   background: url(./assets/bedboat-after-webmastudio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .bedboat:hover {
-  background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.35),
+      rgba(255, 255, 255, 0.35)
+    ),
     url(./assets/bedboat-after-webmastudio.jpg);
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
-.osteopattes{
+.osteopattes {
   background: url(./assets/osteopattes-webmastudio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  cursor:pointer;
+  cursor: pointer;
 }
 .osteopattes:hover {
-  background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
-  url(./assets/osteopattes-webmastudio.jpg);
-    background-repeat: no-repeat;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.35),
+      rgba(255, 255, 255, 0.35)
+    ),
+    url(./assets/osteopattes-webmastudio.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
-.wikidigest{
+.wikidigest {
   background: url(./assets/wikidigest-webmastudio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  cursor:pointer;
+  cursor: pointer;
 }
 .wikidigest:hover {
-  background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
-  url(./assets/wikidigest-webmastudio.jpg);
-    background-repeat: no-repeat;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.35),
+      rgba(255, 255, 255, 0.35)
+    ),
+    url(./assets/wikidigest-webmastudio.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 .link-line {
@@ -358,10 +370,10 @@ section{
 }
 
 .gallery-line .picture {
- margin:10px;
+  margin: 10px;
 }
 
-.modalContainer{
+.modalContainer {
   display: none;
   width: 100%;
   height: 100vh;
@@ -369,23 +381,21 @@ section{
   opacity: 0.6;
   background: var(--maroon);
   z-index: 10000;
-  top:0;
+  top: 0;
   left: 0;
   overflow: hidden;
 }
 
-.modal{
-  display:none;
+.modal {
+  display: none;
   top: 5%;
-left: 5%;
+  left: 5%;
   width: 90vw;
   height: 90vh;
   max-width: 1500px;
   position: fixed;
   z-index: 10001;
   background: #fff;
-  box-shadow: 6px 6px 1px #bac;
-  padding-top: 2rem;
   padding-inline: 10%;
   overflow-y: scroll;
 }
@@ -396,12 +406,17 @@ left: 5%;
 }
 
 .modal ul {
-text-align: left;
+  text-align: left;
 }
 
 .closingmodal {
-  width: 100%;
-  text-align: end;
+  position: absolute;
+  right: 1.5em;
+  top: 1.5em;
+}
+
+.modal h3 {
+  margin-top: 1.5em;
 }
 /*  ----- ENDOF : GALLERY ---- */
 
@@ -463,8 +478,22 @@ span a {
   color: var(--tiffany);
 }
 
-.side-text p:nth-last-of-type(1){
-  display:none;
+.side-text p:nth-last-of-type(1) {
+  display: none;
+}
+
+.tooltip {
+  display: none;
+}
+
+.btn-inactive:hover + .tooltip {
+  display: block;
+  background-color: brown;
+  font-size: small;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
 }
 /* -------------FOOTER------------ */
 footer {
@@ -472,12 +501,7 @@ footer {
   text-align: center;
   padding-bottom: 5px;
 }
-#footer-index {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-}
+
 .arrow {
   height: 10vh;
   position: absolute;
@@ -488,15 +512,20 @@ footer {
 /* -------------RSPNSV-D------------ */
 @media screen and (max-width: 472px) {
   .modal {
-  top: 0;
+    top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     box-shadow: none;
   }
   .modal .picture {
-    width:250px;
-    height:250px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .featured {
+    background-attachment:unset;
+    /* non supporté sur safari, perturbe l'affichage */
   }
 }
 @media screen and (max-width: 991px) {
@@ -509,10 +538,22 @@ footer {
   }
 
   #back-to-top {
-    width:25px;
-    height:25px;
+    width: 25px;
+    height: 25px;
     bottom: 15px;
     right: 15px;
+  }
+
+  .closingmodal {
+    width: 25px;
+    height: 25px;
+    right: 1em;
+    top: 1em;
+  }
+  
+
+  .closingmodal svg {
+    max-width: 100%;
   }
 
   .link-line {
@@ -534,6 +575,10 @@ footer {
 
   .flexfull {
     padding-inline: 10%;
+  }
+
+  .btn-cv {
+    display: none;
   }
 }
 
